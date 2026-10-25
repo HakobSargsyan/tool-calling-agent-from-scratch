@@ -1,0 +1,12 @@
+[project]
+name = "tool-calling-agent-from-scratch"
+version = "0.1.0"
+description = "A tool-calling LLM agent in plain Python, no framework."
+requires-python = ">=3.12"
+dependencies = [
+    "google-genai>=2.33.0",
+    "python-dotenv>=1.2.4",
+]
+
+[dependency-groups]
+dev = ["pytest>=8.0"]
